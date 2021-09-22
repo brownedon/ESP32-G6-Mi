@@ -11,7 +11,7 @@ You also need this to be false, until you've completed pairing with a watch<br>
 boolean authenticated = true;
 
 Note: there's a watchdog timer in this code that will restart the device when it hangs.  
-It will hang every 1-3 days.  I consider this to be an Arduino ESP32 implementation issue.
+It will hang every 1-3 days.  I consider this to be an Arduino ESP32 implementation issue.<br>
 You'll lose history and miss a couple of readings when this happens.
 
 I would love to talk to someone who knows more about the bonding process.  
